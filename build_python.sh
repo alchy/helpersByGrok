@@ -16,7 +16,7 @@ echo "Working in temporary directory: $WORK_DIR"
 
 # Instalace všech potřebných závislostí včetně zlib-devel
 echo "Installing build dependencies..."
-sudo yum install -y gcc make libffi-devel openssl-devel zlib-devel
+sudo yum install -y gcc make libffi-devel openssl-devel zlib-devel zip
 sudo yum install -y gcc bzip2-devel readline-devel sqlite-devel
 echo "Dependencies installed. Current versions:"
 gcc --version
