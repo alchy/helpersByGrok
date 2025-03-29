@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PYTHON_VERSION="3.10.7"
-PYTHON_URL="https://www.python.org/ftp/python/3.10.7/Python-3.10.7.tgz"
+PYTHON_VERSION="3.10.16"
+PYTHON_URL="https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz"
 AGENT_TOOLS_DIR="/home/azureagent/_work/_tool"
 PYTHON_INSTALL_DIR="${AGENT_TOOLS_DIR}/Python/${PYTHON_VERSION}/x64"
 
